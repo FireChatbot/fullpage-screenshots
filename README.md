@@ -69,5 +69,31 @@ const {
   }
 })();
 ```
+## Parameters
+
+`captureFullPageScreenshot(url, options)`
+
+| Parameter                | Type     | Default     | Description                                                            |
+| ------------------------ | -------- | ----------- | ---------------------------------------------------------------------- |
+| `url`                    | string   | required    | The URL of the page to capture.                                       |
+| `viewportWidth`          | number   | 1366        | Browser viewport width.                                               |
+| `viewportHeight`         | number   | 768         | Browser viewport height.                                              |
+| `overlap`                | number   | 100         | Number of pixels to overlap between consecutive screenshots.          |
+| `useScraperApi`          | boolean  | false       | Whether to use a rotating proxy like ScraperAPI.                      |
+| `proxyUsername`          | string   | undefined   | Proxy username (e.g., for ScraperAPI or other providers).             |
+| `proxyPassword`          | string   | undefined   | Proxy password (e.g., for ScraperAPI or other providers).             |
+| `executablePathOverride` | string   | undefined   | Override the Chromium executable path (useful in local development).   |
+
+---
+
+### About FireChatbot
+
+**FireChatbot** is an AI-driven chatbot platform. This screenshot utility was originally built within FireChatbot’s system for extracting visual references and content data from various websites.
+
+---
+
+### Contributing
+
+Contributions and pull requests are welcome. Please open an issue first to discuss what you would like to change or improve.
 
 
