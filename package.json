@@ -1,0 +1,34 @@
+{
+  "name": "full-page-screenshot-tool",
+  "version": "1.0.0",
+  "description": "A Node.js module for capturing full-page website screenshots by scrolling and stitching, handling fixed elements, and supporting proxy integration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/full-page-screenshot-tool.git"
+  },
+  "keywords": [
+    "screenshot",
+    "puppeteer",
+    "full-page",
+    "web",
+    "scraper",
+    "proxy",
+    "sharp"
+  ],
+  "author": "FireChatbot",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^19.9.0",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
